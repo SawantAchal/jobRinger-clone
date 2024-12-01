@@ -6,10 +6,10 @@ const CurrentJobCard = ({job}) => {
     <>
         <div className="bg-white shadow-md rounded-lg p-6 w-64 h-64 space-y-1.5 mt-10 mb-10">
             <div className='flex justify-between'>
-                <div className={`text-sm font-semibold px-3 py-1 rounded-full inline-block ${job.job_type === "Internship" ? "text-green-600 bg-green-100" :job.job_type === "Full-Time" ? "text-red-600 bg-red-100" : "text-blue-600 bg-blue-100"}`}>
+                <div className={`text-sm font-semibold px-3 py-1 rounded-full inline-block border border-blue-300 text-blue-500`}>
                     {job.job_type.toUpperCase()}
                 </div>
-                <div className='text-sm font-semibold px-3 py-1 rounded-full inline-block'>{job.job_mode}</div>
+                <div className='text-sm font-semibold px-3 py-1 rounded-full inline-block border border-blue-300 text-blue-500'>{job.job_mode}</div>
             </div>
 
             <h4 className="text-lg font-semibold text-gray-800 text-center mt-4">{job.title}</h4>
