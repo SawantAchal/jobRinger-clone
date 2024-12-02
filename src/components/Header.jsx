@@ -3,6 +3,7 @@ import header from '../assets/header.png'
 import { FaPen } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { LuCircleDot } from "react-icons/lu";
+import Carousel from './Caraousel';
 
 const Header = () => {
 
@@ -26,11 +27,9 @@ const Header = () => {
             </section>
             <button className='bg-blue-400 text-white p-2 lg:p-4 rounded-md w-full lg:w-auto'>FIND JOBS</button>
           </div>
-          {/* <div className='mt-4'>
-            <p className=''>Featured <br/> Employers</p>
-            <div>
-            </div>
-          </div> */}
+          <div className='mt-4 flex flow-row'>
+            <Carousel/>
+          </div>
         </div>
         <div className='hidden lg:block'>
           <img src={header} alt='home image' />

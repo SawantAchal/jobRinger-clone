@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className='lg:hidden' onClick={toggleMenu}>
           {isMenuOpen ? <HiX size={30} /> : <HiMenuAlt3 size={30} />}
         </div>
-        <div  className={`flex-col lg:flex-row lg:flex items-center lg:gap-20 gap-5  absolute lg:relative top-16 lg:top-auto left-0 w-full lg:w-auto  lg:bg-transparent p-5 lg:p-0 transition-all duration-300 ease-in-out ${ isMenuOpen ? 'flex' : 'hidden' }`}>
+        <div  className={`flex-col lg:flex-row lg:flex items-center lg:gap-20 gap-5  absolute lg:relative top-16 lg:top-auto left-0 w-full lg:w-auto bg-slate-100 lg:bg-transparent p-5 lg:p-0 transition-all duration-300 ease-in-out ${ isMenuOpen ? 'flex' : 'hidden' }`}>
           <section className='flex flex-col lg:flex-row gap-5 items-center lg:gap-10'>
             <p>Jobs</p>
             <p>Active Employers</p>

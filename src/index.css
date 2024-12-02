@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Override swiper styles (add this to your global styles file) */
+.swiper-container {
+    padding: 0 !important; /* Remove container padding */
+  }
+  
+  .swiper-wrapper {
+    display: flex !important;
+    padding: 0 !important; /* Remove padding between slides */
+  }
+  
+  .swiper-slide {
+    margin: 0 !important; /* Remove margin between slides */
+    padding: 0 !important; /* Remove padding within each slide */
+  }
+  
+  
