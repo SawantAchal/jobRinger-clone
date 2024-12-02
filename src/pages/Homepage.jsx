@@ -13,8 +13,8 @@ const Homepage = () => {
         <Navbar/>
         <Header/>
       </div>
-      <BrowseJob/>
       <CurrentJob/>
+      <BrowseJob/>
       <NewsLetter/>
       <Footer/>
     </>

@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
         <footer className='mt-4'>
-            <section className='flex justify-center gap-16 text-center font-semibold mt-4 mb-4'>
+            <section className='flex flex-wrap justify-center gap-16 text-center font-semibold mt-4 mb-4'>
                 <section>
                     <p>Jobs Posted</p>
                     <p className='text-blue-500'>31179</p>
@@ -31,8 +31,8 @@ const Footer = () => {
                 </section>
             </section>
             <hr/>
-            <section className='flex justify-around mt-4'>
-                <ul className='font-medium text-center'>
+            <section className='flex flex-wrap justify-around mt-4 gap-8 px-4'>
+                <ul className='font-medium text-center flex-1 sm:flex-none'>
                     <li className='text-green-500'>JOBS IN INDIA</li>
                     <li>Mumbai</li>
                     <li>Delhi</li>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <li>Jaipur</li>
                     <li>Ahmedabad</li>
                 </ul>
-                <ul className='font-medium  text-center'>
+                <ul className='font-medium  text-center flex-1 sm:flex-none'>
                     <li className='text-green-500'>INTERNATIONAL JOBS</li>
                     <li>Africa</li>
                     <li>USA</li>
@@ -59,10 +59,10 @@ const Footer = () => {
                     <li>Saudi Arabia</li>
                     <li>New Zealand</li>
                 </ul>
-                <div className='font-medium'>
+                <div className='font-medium text-center flex-1 sm:flex-none'>
                     <h3 className='text-green-500'>FEATURED JOB</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> perspiciatis aperiam reprehenderit dolorem </p>
-                    <section className='flex gap-4 mt-3'>
+                    <section className='flex justify-center gap-4 mt-3 flex-wrap'>
                         <img src={instagram} alt='instagram' className='w-7 h-7 border rounded-full p-1'/>
                         <img src={whatsapp} alt='whatsapp' className='w-7 h-7 border rounded-full p-1'/>
                         <img src={facebook} alt='facebook' className='w-7 h-7 border rounded-full p-1'/>
@@ -70,7 +70,7 @@ const Footer = () => {
                         <img src={youtube} alt='youtube' className='w-7 h-7 border rounded-full p-1'/>
                         <img src={telegram} alt='telegram' className='w-7 h-7 border rounded-full p-1'/>
                     </section>
-                    <section className='flex gap-5'>
+                    <section className='flex justify-center gap-5 mt-4'>
                         <img src={app} alt='app store' className='w-20'/>
                         <img src={app} alt='app store' className='w-20'/>
                     </section>
