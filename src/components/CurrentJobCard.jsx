@@ -11,7 +11,6 @@ const CurrentJobCard = ({job}) => {
           </div>
           <div className='text-sm font-semibold px-3 py-1 rounded-full inline-block border border-blue-300 text-blue-500'>{job.job_mode}</div>
         </div>
-
         <h4 className="text-lg font-semibold text-gray-800 text-center mt-4">{job.title}</h4>
         <h3 className="text-lg font-semibold text-gray-800 text-center mt-4">{job.company}</h3>
         <h3 className="text-lg font-semibold text-gray-800 text-center mt-4">{job.experience}</h3>

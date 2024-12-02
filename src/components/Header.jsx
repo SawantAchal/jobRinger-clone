@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <>
-      <header className='flex flex-col lg:flex-row lg:float-end justify-between  mt-28 lg:mt-[12rem] gap-10 lg:gap-56 p-4'>
+      <header className='flex flex-col lg:flex-row lg:float-end justify-between  mt-12 lg:mt-[12rem] gap-10 lg:gap-56 p-4'>
         <div className='mt-14'>
           <div>
             <h1 className='text-3xl lg:text-5xl font-medium'>Searching <span className='text-blue-500'>for a job?</span></h1>
